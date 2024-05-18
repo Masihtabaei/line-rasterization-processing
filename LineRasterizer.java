@@ -15,6 +15,10 @@ public final class LineRasterizer
       framebuffer[y * w + x] = col;
     }
   }
+  
+  private static final void drawLine(int[] frameBuffer, int w, int2 b, int col){
+
+  }
 
   public static final void drawLine(int[] framebuffer, int w, int h, int2 a, int2 b, int col)
   {
