@@ -16,8 +16,8 @@ public final class LineRasterizer
     }
   }
   
-  private static final void drawLine(int[] frameBuffer, int w, int2 b, int col){
-
+  private static final void drawLine(int[] frameBuffer, int widthOfDisplayWindow, int2 destinationPointAsVector, int pixelColor){
+    
   }
 
   public static final void drawLine(int[] framebuffer, int w, int h, int2 a, int2 b, int col)
